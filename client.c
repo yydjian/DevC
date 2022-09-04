@@ -32,7 +32,7 @@ int main()
 	int sockfd, connfd;
 	struct sockaddr_in servaddr, cli;
 
-	printf("Modif CS...\n");
+	printf("Lauching client...\n");
 	// socket create and varification
 	sockfd = socket(AF_INET, SOCK_STREAM, 0);
 	if (sockfd == -1) {
