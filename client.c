@@ -54,7 +54,7 @@ int main()
 		exit(0);
 	}
 	else
-		printf("connected to the server..\n");
+		printf("connected to the server..super\n");
 
 	// function for chat
 	func(sockfd);
